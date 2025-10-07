@@ -1,0 +1,24 @@
+/* ==== Mobile Navigation & Overlay ===*/
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #E4E4E4;
+    background-color: #FBFBFB;
+}
+
+.mobile-header .logo img {
+    width: 32px;
+    height: 32px;
+}
+
+
+/*== Responsive @Media ==*/
+@media (max-width: 767px) {
+    .mobile-header {
+        display: flex;
+    }
+}
+
+

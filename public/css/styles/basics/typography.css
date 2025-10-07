@@ -1,0 +1,51 @@
+/*=== Typography ===*/
+h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif;
+    color: #010101;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+}
+
+
+
+/*--> Responsive Typography */
+@media (min-width: 768px) {
+    h1 { font-size: 24px; }
+    h2 { font-size: 22px; }
+    h3 { font-size: 16px; }
+    p { font-size: 16px; }
+}
+
+@media (min-width: 1024px) {
+    h1 { font-size: 28px; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 18px; }
+    p { font-size: 16px; }
+}
+
+@media (min-width: 1300px) {
+    p { font-size: 18px; }
+}

@@ -1,0 +1,30 @@
+
+{
+    "title": "History of the Internet in the Netherlands",
+    "chapter": "Public Wi-Fi Networks",
+    "headerImage": {
+        "src": "/images/HoI_NL/publicWifi/cover_wifi.jpg",
+        "alt": "A peaceful street in a European city at night, with a Wi-Fi symbol centred at the top of the image."
+    },
+    "text": "The Netherlands was a pioneer in connecting to the internet in Europe, with the first connection established in 1988. The invention of Wi-Fi technology also has strong ties to the Netherlands, with key contributions from Dutch individuals like Cees Links and Vis Hayes. Public Wi-Fi networks, initially often unsecured, have evolved to include secure options like Publicroam, offering safer internet access at public venues.",
+
+
+    "sections": [
+        {
+            "subtitle": "Wi-Fi Origin",
+            "text": "When considering the development of Wi-Fi, the name of Dutch engineer Cees Links often comes up. He played a pivotal role in creating the first wireless LANs for PCs and notebooks, which ultimately evolved into the Wi-Fi technology we use today in computers, smartphones, and smart devices. Links also advanced the development of access points, home networking routers, and hotspot base stations.\n\nCees Links studied Electrical Engineering at the Technische Hogeschool Twente, now known as the University of Twente. He then joined NCR Computers in Nieuwegein, where he led a team working on pioneering wireless networking concepts. It was there that Wi-Fi was born.\n\nHis team experimented with wireless communication, and by 1988, they had established the first wireless network connection. In the late 1990s, Links was contacted by Apple when Steve Jobs expressed interest in their work.\n\nIn 1999, during a keynote presentation, Steve Jobs famously connected an iBook to the internet wirelessly on stage—an effortless feat that stunned the world and demonstrated the potential of Wi-Fi technology.\n\nVic Hayes, a Dutch engineer, is often called the \"father of Wi-Fi\". He led the IEEE committee that established the 802.11 standards, forming the basis of modern wireless networking."
+        },
+        {
+            "subtitle": "Security",
+            "text": "Across the Netherlands, many individuals connect to open Wi-Fi hotspots on trains, in airports, at eateries, and countless other locations. However, these public networks are frequently unsecured, making them potentially risky. As a user, you could be exposed to hackers or cybercriminals who might intercept your private data without your awareness.\n\nAcross the Netherlands, many individuals connect to open Wi-Fi hotspots on trains, in airports, at eateries, and countless other locations. However, these public networks are frequently unsecured, making them potentially risky. As a user, you could be exposed to hackers or cybercriminals who might intercept your private data without your awareness.\n\nConsidering security, the education and government sectors have established secure Wi-Fi networks, known as \"Eduroam\" and \"Govroam\", respectively. Eduroam (education roaming) is a secure, worldwide access service tailored for the global research and education community. It uses cutting-edge encryption and authentication standards, offering security that greatly exceeds typical commercial hotspots.\n\nGovroam (government roaming) is a similarly secure roaming service for local and national government entities, modelled closely after eduroam.\n\nInspired by these systems, Paul Francissen and Ted Dinklo launched publicroam in 2018, aiming to provide secure Wi-Fi access at public venues. Since then, publicroam has evolved from a pioneering project into a successful initiative, now supporting nearly 700 sites across the Netherlands."
+        }
+    ],
+
+    "references": [
+        { "text": "WifiNowGloabal. Cees Links, available at: ", "url": "https://wifinowglobal.com/person/cees-links/", "text2": "(accessed by 29 July 2025)." },
+        { "text": "University Of Twenty, 2025. No Wi-Fi without Twente: How alumnus Cees Links invented wireless internet, available at: ", "url": "https://www.utwente.nl/en/stories/science/144998/no-wi-fi-without-twente-how-alumnus-cees-links-invented-wireless-internet/?tag=technology", "text2": "(accessed by 29 July 2025)." },
+        { "text": "ETHW, 2016. Vic Hayes, available at: ", "url": "https://ethw.org/Vic_Hayes", "text2": "(accessed by 29 July 2025)." },
+        { "text": "Eduroam. What is Eduroam?, available at: ", "url": "https://eduroam.org/what-is-eduroam/", "text2": "(accessed by 29 July 2025)." },
+        { "text": "SIDN, 2022. Publicroam offers secure Wi-Fi at nearly seven hundred Dutch venues, available at: ", "url": "https://www.sidn.nl/en/news-and-blogs/publicroam-offers-secure-wi-fi-at-nearly-seven-hundred-dutch-venues", "text2": "(accessed by 29 July 2025)." }
+    ]
+}

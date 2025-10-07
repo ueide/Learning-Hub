@@ -1,0 +1,41 @@
+
+{
+    "title": "History of the Internet in the Netherlands",
+    "chapter": "Origin",
+    "headerImage": {
+        "src": "/images/HoI_NL/origin/cover_origin.png",
+        "alt": "A photo showing a man seated at his desk, typing on an old computer."
+    },
+    "text": "The Netherlands took a significant step in its technological history by becoming the second country in the world, following the United States, to establish an Internet connection.\n\nThis milestone occurred on 17 November 1988 when the country's research institute, Centrum Wiskunde & Informatica (CWI), located in Amsterdam, successfully connected to the burgeoning global network. This early connection marked a pivotal moment, as it was the first time a Dutch computer had direct access to the American Internet, which at the time was primarily utilised by universities and defence agencies for research and communication purposes. This development laid the groundwork for the widespread adoption of the Internet in the Netherlands and contributed to the country's future advancements in digital technology.",
+
+
+    "sections": [
+        {
+            "subtitle": "First Contact",
+            "text": "The initial contact was established through email, a fast and straightforward message sent to Tues Hanges and his colleges in Amsterdam —comprising Steven Pemberton, Jaap Akkerhuis, Piet Beertema, Jim McKie, and Daniel Karrenberg—by their colleagues from the United States.",
+            "image": {
+                "src": "/images/HoI_NL/origin/first-contact.jpg",
+                "alt": "An image of the first email received by the Netherlands team on Thursday, 17 November 1988.",
+                "caption": "Image of the first email sent to the Netherlands on Thursday, November 17, 1988."
+            }
+        },
+
+        {
+            "text": "Using the new connection, Steven Pemberton accessed an American computer from CWI, unknowingly making history. This marked the first-time people could send mail directly over the internet. Before, sending electronic messages was possible but very slow, relying on a regular phone line. All messages were stored in a digital mailbox, which forwarded them to recipients once or twice daily. Starting from November 17, 1988, a new era began where messages arrived within seconds."
+        },
+
+        {
+            "subtitle": "Making History",
+            "text": "Pemberton recalls that initially, they did not recognize the significance of the connection as a historic milestone, nor did they take photographs of the moment. It was only later, when he connected his personal computer at home, that he realized something extraordinary was unfolding. His friends were amazed to see how he managed to contact people in America.\n\nIn the early 1990s, while in New York, Pemberton saw a billboard in Times Square displaying a web address. This encounter made him realize he was witnessing a pivotal development in global communication."
+        }
+    ],
+
+        "references": [
+        { "text": "[1]Waag Futurelab, 2013. 25 years Internet in The Netherlands, available at: ", "url": "https://waag.org/en/article/25-years-internet-netherlands", "text2": "(accessed by 29 July 2025)." },
+        { "text": "[2]Waag Futurelab, 2014. De Digitale Stad, DDS, available at: ", "url": "https://waag.org/en/project/digital-city-dds", "text2": "(accessed by 29 July 2025)." },
+        { "text": "[1] WCI. The birth of European Internet, available at: ", "url": "https://www.cwi.nl/en/about/history/cwi-first-european-internet-connection", "text2": "(accessed by 29 July 2025)." },
+        { "text": "[2]WCI, 2023. The Netherlands first in Europe to connect to the public internet 35 years ago, available at: ", "url": "https://www.cwi.nl/en/news/the-netherlands-first-in-europe-to-connect-to-the-public-internet-35-years-ago", "text2": "(accessed by 29 July 2025)." },        
+        { "text": "Nlnet. Teus Hagen, available at: ", "url": "https://nlnet.nl/people/TeusHagen", "text2": "(accessed by 29 July 2025)." }
+    ]
+
+}

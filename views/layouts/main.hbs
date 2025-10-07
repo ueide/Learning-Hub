@@ -1,0 +1,46 @@
+{{!-- Code structure for the pages --}}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WD Project</title>
+    <link rel="stylesheet" href="/css/styles/main.css">
+    
+    {{!-- Roboto family font --}}
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class=" container">
+        {{> mobileHeader}}
+
+        {{!-- Main layout structure --}}
+
+        <div class="layout">
+            {{> sideBar navTitle=navTitle navLinks=navLinks}}
+
+            <main class="content">
+
+                {{{body}}}
+
+                {{> mobileOverlay navTitle=navTitle navLinks=navLinks}}
+            </main>
+        </div>
+    </div>
+
+    {{!-- Footer section --}}
+    {{> footer}}
+    
+    {{!-- Back to top button --}}
+    {{> backTop}}
+
+    {{!-- add javascript file --}}
+    <script src="/js/scripts/main.js"></script>
+
+</body>
+
+</html>

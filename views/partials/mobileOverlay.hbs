@@ -1,0 +1,21 @@
+
+<div class="mobile-overlay" id="mobileOverlay" aria-hidden="true">
+
+    <button class="close-overlay" id="closeOverlayBtn" aria-label="Close Menu">
+        <img src="/images/icons/close.svg" alt="close icon" width="32" height="32">
+    </button>
+
+        <button class="login-button" aria-label="Login">
+            Login
+        </button>
+        
+    <nav class="overlay-nav" aria-label="Mobile Navigation">
+        <h1>{{navTitle}}</h1>
+        <ul>
+            {{#each navLinks}}
+            <li><a href="{{this.path}}" class="nav-link">{{this.title}}</a></li>
+            {{/each}}
+        </ul>
+    </nav>
+
+</div>

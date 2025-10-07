@@ -1,0 +1,67 @@
+
+{
+    "pages": [
+        {
+        "title": "History of the Internet in the Netherlands",
+        "description": "Learn about how the Netherlands became the second country in the world to connect to the internet.",
+        "path": "/origin",
+        "image": "/images/home/history_internet.png"
+        },
+
+        {
+        "title": "Python for beginners",
+        "description": "Learn about the basics of Python programming for beginners, including what Python is, its key features, and how to get started with coding.",
+        "path": "/",
+        "image": "/images/home/python_for_beginners.png"
+        },
+
+        {
+        "title": "Coding best practices",
+        "description": "Developers use best practices to create efficient, readable, and maintainable code, much like the Netherlands was among the first to connect to the internet.",
+        "path": "/",
+        "image": "/images/home/coding_best_practices.png"
+        },
+
+        {
+        "title": "Calculus refresher",
+        "description": "Master calculus fundamentals quickly, like early internet pioneers boosting connectivity.",
+        "path": "/",
+        "image": "/images/home/calculus_refresher.png"
+        },
+
+        {
+        "title": "Security protocols",
+        "description": "Security protocols protect data and enable safe digital interactions, just as early internet connections laid the groundwork for connectivity.",
+        "path": "/",
+        "image": "/images/home/security_protocols.png"
+        },
+
+        {
+        "title": "Colour wheel",
+        "description": "Discover the history and significance of the colour wheel, including its development and how it is used in art and design today.",
+        "path": "/",
+        "image": "/images/home/color_wheel.png"
+        },
+
+        {
+        "title": "Virtual reality",
+        "description": "Explore the evolution, milestones, and future of Virtual Reality technology globally.",
+        "path": "/",
+        "image": "/images/home/virtual_reality.png"
+        },
+
+        {
+        "title": "Math in programming",
+        "description": "Discover how math underpins modern programming, from algorithms and data structures to machine learning and AI.",
+        "path": "/",
+        "image": "/images/home/math_in_programming.png"
+        },
+
+        {
+        "title": "Internet network",
+        "description": "Discover how global internet networks are interconnected and the evolution of internet infrastructure around the world.",
+        "path": "/",
+        "image": "/images/home/internet_network.png"
+        }
+    ]
+}

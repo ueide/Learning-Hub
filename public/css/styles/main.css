@@ -1,0 +1,23 @@
+
+/*--- SETTINGS ---*/
+@import url('basics/reset.css');
+@import url('basics/typography.css');
+@import url('basics/layout.css');
+
+/*--- NAVIGATION ------*/
+@import url('components/sidebar.css');
+@import url('components/page-header.css');
+@import url('components/mobile-header.css');
+@import url('components/mobile-overlay.css');
+@import url('components/footer.css');
+
+/*--- COMPONENTS -------*/
+@import url('components/cardHome.css');
+@import url('components/author-box.css');
+@import url('components/breadcrumb.css');
+@import url('components/buttons/back-to-top.css');
+@import url('components/buttons/circle-button.css');
+@import url('components/buttons/icon-button.css');
+@import url('components/chapter-nav.css');
+@import url('components/decorative-box.css');
+@import url('components/references.css');

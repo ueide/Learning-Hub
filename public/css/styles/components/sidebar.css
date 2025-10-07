@@ -1,0 +1,128 @@
+/*=== SideBar ===*/
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sidebar-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 24px;
+    width: 248px;
+    height: 100vh;
+    background-color: #FBFBFB;
+    border: 1px solid #e4e4e4;
+}
+
+.sidebar-top {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.sidebar-actions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sidebar button,
+.mobile-overlay .login-button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 8px;
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: left;
+}
+
+/*== Search button ==*/
+.sidebar-actions .search-button {
+    background-color: #fff;
+    color: #010101;
+    border: 1px solid #E4E4E4;
+}
+
+.sidebar-actions .search-button:hover {
+    background-color: #eeeeee;
+    color: #010101;
+    box-shadow: 0px 2px 7px 0px #999a9b;
+}
+
+.sidebar-actions .search-button:focus {
+    background-color: #fff;
+    color: #57575a;
+    border: 1px solid #cecece;
+    box-shadow: 0px 1px 2px #999a9b;
+}
+
+
+/*==Login button ==*/
+.sidebar-actions .login-button {
+    width: 80px;
+    background-color: #373636;
+    color: #fff;
+}
+
+.sidebar-actions .login-button:hover {
+    background-color: #484849;
+    color: #fff;
+    box-shadow: 0px 2px 7px 0px #999a9b;
+}
+
+
+/*== Responsive @Media ==*/
+@media (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .sidebar {
+        width: 248px;
+        padding: 24px;
+    }
+
+    .sidebar .search-button img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .sidebar-top .logo img {
+        margin-left: 4px;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    
+    .sidebar {
+        width: 248px;
+        padding: 24px;
+    }
+
+    .sidebar .search-button img {
+        height: 22px;
+        width: 22px;
+    }
+
+    .sidebar-top .logo img {
+        margin-left: 4px;
+        width: 40px;
+        height: 40px;
+    }
+}
+

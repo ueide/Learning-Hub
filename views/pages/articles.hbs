@@ -1,0 +1,75 @@
+{{!-- The article content is now directly accessible --}}
+{{> breadcrumb}}
+
+<div class="decorative-box">
+        {{> articleContentBox}}
+
+    <header>
+        <h2>{{chapter}}</h2>
+        {{#if headerImage}}
+            <img src="{{headerImage.src}}" alt="{{headerImage.alt}}" class="header-image">
+        {{/if}}
+
+        {{#if text}}
+                {{#each (splitParagraphs text)}}
+                    <p>{{this}}</p>
+                {{/each}}
+            {{/if}}
+    </header>
+
+    {{#each sections}}
+        <section>
+            {{#if subtitle}}
+                <h2>{{subtitle}}</h2>
+            {{/if}}
+
+            <figure> 
+                {{#if image}}
+                    <img src="{{image.src}}" alt="{{image.alt}}" class="medium-image">
+                    <figcaption class="img-caption">{{image.caption}}</figcaption>
+                {{/if}}
+            </figure>
+
+            {{#if text}}
+                {{#each (splitParagraphs text)}}
+                    <p>{{this}}</p>
+                {{/each}}
+            {{/if}}
+
+            {{#if people}}
+            <div class="hall-of-fame-list">
+                {{#each people}}
+                <div class="person-card">
+                    <img src="{{image}}" alt="{{name}}" class="person-img">
+                    
+                    {{#if bio}}
+                        {{#each (splitParagraphs bio)}}
+                        <ul>
+                            <li>
+                                <p class="bio-list">{{this}}</p>
+                            </li>
+                        </ul>
+                        {{/each}}
+                    {{/if}}
+                </div>
+                {{/each}}
+            </div>
+            {{/if}}
+            
+            {{#if video}}
+                <iframe class="video-cont" src="{{video}}" frameborder="0" allowfullscreen></iframe>
+            {{/if}}
+        </section>
+    {{/each}}
+
+    <section class="references">
+    <h2>References</h2>
+    <ul>
+        {{#each references}}
+            <li> {{text}}
+                <a href="{{url}}"> {{url}}, </a> {{text2}}
+            </li>
+        {{/each}}
+    </ul>
+    </section>
+</div>

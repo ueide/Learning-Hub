@@ -1,0 +1,33 @@
+/*=== References ===*/
+.references h2 {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.references li {
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 0.8rem;
+}
+
+.references a {
+    text-decoration: none;
+    color: #010101;
+    word-break: break-all;
+    padding: 0;
+}
+
+.references a:hover {
+    text-decoration: underline;
+}
+
+
+/*== Responsive @Media ==*/
+@media (min-width: 1300px) {
+    .references li {
+        font-size: 16px;
+        list-style: none;
+        margin-bottom: 0.8rem;
+    }
+}
+

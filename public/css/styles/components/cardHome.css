@@ -1,0 +1,76 @@
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center; 
+    margin-bottom: 1rem;
+}
+
+.home-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(37, 37, 37, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.home-card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0 6px 12px rgba(37, 37, 37, 0.3);
+}
+
+.home-card h2 {
+    font-size: 1.1rem;
+    margin: 0.5rem 1rem;
+}
+
+.home-card p {
+    font-size: 0.9rem;
+    margin: 0 1rem 1rem;
+    color: #202020;
+}
+
+.card-img {
+object-fit: cover;
+width: 100%;
+height: 177px;
+}
+
+
+/*== Responsive @Media ==*/
+@media (max-width: 520px) {
+    .home-card {
+        width: 100%; /* column */
+    }
+}
+
+@media (min-width: 521px) and (max-width: 767px) {
+    .home-card {
+        width: 75%; /* column */
+    }
+}
+
+
+@media (min-width: 768px) {
+    .home-card {
+        width: calc(50% - 1.5rem); /* 2 cards per row with gap */
+    }
+}
+
+
+@media (min-width: 1080px) {
+    .home-card {
+        width: calc(33.333% - 2rem); /* 3 cards per row with gap */
+    }
+}
+
+@media (min-width: 1560px) {
+    .home-card {
+        width: calc(33.333% - 5rem); /* 3 cards per row with gap */
+    }
+}

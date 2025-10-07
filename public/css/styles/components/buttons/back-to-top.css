@@ -1,0 +1,24 @@
+/* === Back to Top Button === */
+.back-to-top {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 48px;
+    right: 32px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #373636;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(125, 127, 131, 0.24);
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.back-to-top:hover {
+    background-color: #555;
+}

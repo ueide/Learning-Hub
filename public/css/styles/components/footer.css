@@ -1,0 +1,24 @@
+/* ==== Footer === */
+.site-footer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #e4e4e4;
+    padding: 16px 24px;
+    background-color: #fbfbfb;
+    color: #313030;
+    z-index: 2;
+}
+
+.footer-content p {
+    font-size: 12px;
+    margin: 4px 0;
+}
+
+/*== Responsive @Media ==*/
+@media (min-width: 768px) {
+    .footer-content p {
+        font-size: 14px;
+        margin: 4px 0;
+    }
+}

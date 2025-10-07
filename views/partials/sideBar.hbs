@@ -1,0 +1,34 @@
+{{!-- navigation sidebar --}}
+
+<aside class="sidebar">
+    <div class="sidebar-content">
+        {{!-- Sidebar header with logo and actions --}}
+        <div class="sidebar-top">
+            <div class="logo">
+                <a href="/">
+                    <img src="/images/logo.png" alt="Logo" width="40" height="40">
+                </a>
+            </div>
+
+            <div class="sidebar-actions">
+                <button class="login-button">
+                    Login
+                </button>
+                
+                <button class="search-button" aria-label="Search">
+                    <img src="/images/icons/search.svg" alt="Search icon">
+                    Search
+                </button>
+            </div>
+        </div>
+
+        <nav class="chapter-nav" aria-label="Chapters">
+            <h3>{{navTitle}}</h3>
+            <ul>
+                {{#each navLinks}}
+                <li><a href="{{this.path}}" class="nav-link">{{this.title}}</a></li>
+                {{/each}}
+            </ul>
+        </nav>
+    </div>
+</aside>

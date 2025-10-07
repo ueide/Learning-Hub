@@ -1,0 +1,44 @@
+/*=== Breadcrumb ===*/
+.breadcrumb {
+    display: flex;
+    box-sizing: border-box;
+    width: 99%;
+    margin-bottom: 32px;
+    font-size: 14px;
+    gap: 8px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #37383a;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #111111;
+}
+
+
+/*== Responsive @Media ==*/
+@media (max-width: 767px) {
+    .breadcrumb {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .breadcrumb {
+        width: 84%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .breadcrumb {
+        width: 79%;
+        font-size: 16px;
+    }
+}

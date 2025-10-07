@@ -1,0 +1,34 @@
+/*=== Page Header ===*/
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.page-header .left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.page-header .stamp {
+    width: 36px;
+    height: 36px;
+}
+
+/*== Responsive @Media ==*/
+@media (max-width: 540px) {
+    .page-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

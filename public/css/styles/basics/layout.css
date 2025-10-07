@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #010101;
+    background-color: #eff0f3;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+/*=== Layout ===*/
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+/*=== Main content (background area) ===*/
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 24px 16px 48px 16px;
+}
+

@@ -1,0 +1,144 @@
+/*=== Decorative Box ===*/
+.decorative-box {
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid #E4E4E4;
+    border-radius: 16px;
+    padding: 1.5rem;
+    background-color: #fff;
+    margin-top: 0;
+}
+
+/*=== Content Images ===*/
+.header-image {
+    width: 100%;
+    max-height: 260px;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.medium-image {
+    width: 100%;
+    max-width: 360px;
+    max-height: 280px;
+    border-radius: 8px;
+}
+
+.video-cont {
+    width: 100%;
+    max-width: 60vh;
+    height: 30vh;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.img-caption {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #010101;
+    margin-bottom: 1rem;
+}
+
+.person-img {
+    width: 136px;
+    height: 124px;
+    border-radius: 12px;
+}
+
+.person-card {
+    margin-bottom: 3.5rem;
+}
+
+.person-card ul {
+    margin-left: 16px;
+}
+
+
+
+/*== Responsive @Media ==*/
+@media (min-width: 768px) { 
+    .header-image {
+        width: 100%;
+        max-height: 340px;
+        border-radius: 8px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .medium-image {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .video-cont {
+        width: 100%;
+        max-width: 650px;
+        min-height: 50vh;
+        border-radius: 8px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .decorative-box {
+        max-width: 85%;
+        width: 100%;
+        padding: 2rem 2.5rem;
+    }
+
+    .header-image {
+        width: 100%;
+        max-height: 380px;
+        border-radius: 12px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .medium-image {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .video-cont {
+        width: 100%;
+        max-width: 800px;
+        min-height: 55vh;
+        border-radius: 8px;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .decorative-box {
+        max-width: 80%;
+        width: 100%;
+        padding: 3rem 5rem;
+    }
+    
+    .header-image {
+        width: 100%;
+        max-height: 480px;
+        border-radius: 14px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .medium-image {
+        width: 95%;
+        max-width: 550px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .video-cont {
+        width: 100%;
+        max-width: 560px;
+        min-height: 40vh;
+        border-radius: 8px;
+    }
+}

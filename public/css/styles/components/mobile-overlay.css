@@ -1,0 +1,67 @@
+.mobile-overlay {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 32px 24px;
+
+    z-index: 12;
+}
+
+.mobile-overlay.active {
+    display: flex;
+}
+
+.mobile-overlay .close-overlay {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mobile-overlay .login-button {
+    width: 96px;
+    margin-left: 7%;
+    margin-top: 56px;
+    margin-bottom: 64px;
+    font-size: 18px;
+    background-color: #373636;
+    color: #fff;
+}
+
+.overlay-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    font-size: 18px;
+}
+
+.overlay-nav .nav-link {
+    text-align: left;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    width: 35%;
+    padding: 8px 8px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: none;
+    color: #010101;
+    background-color: transparent;
+}
+
+/*== Responsive @Media ==*/
+@media (min-width: 768px) {
+    .mobile-overlay,
+    .mobile-nav {
+        display: none;
+    }
+}

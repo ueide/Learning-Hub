@@ -1,0 +1,73 @@
+{
+    "title": "History of the Internet in the Netherlands",
+    "chapter": "Hall of Fame",
+    "headerImage": {
+        "src": "/images/HoI_NL/hallfame/cover_hallFame.jpg",
+        "alt": "An illustration depicting a long hallway lined with statues of influential figures who contributed significantly to building what we know as the internet."
+    },
+    "text": "The Hall of Fame honours individuals who have made outstanding contributions to the development of the Internet, celebrates their perseverance and spirit, and venerates their lives.\n\nSome of the Dutch names that have contributed to the internet as we know it.",
+    
+    "sections": [
+        {
+            "subtitle": "Teus Hagen",
+            "people": [
+            {
+                "image": "/images/HoI_NL/hallfame/teus_hagen.jpg",
+                "bio": "Teus Hagen helped the Netherlands become the second country to access the internet.\n\nHe founded the Dutch Unix User Group (NLUUG) and the European Unix User Group (EUUG), serving as chair from 1980 to 1989.\n\nHe contributed to the development of EUnet, the first public wide area network, which expanded to 1,000 sites in 21 countries by 1989.\n\nIn 1983, he started working with TCP/IP at the University of California.\n\nHagen chaired the NLnet Foundation from 1992 to 2008, aiding its growth into the first Dutch Internet Service Provider."
+            }
+            ]
+        },
+        {
+            "subtitle": "Steven Pemberton",
+            "people": [
+            {
+                "image": "/images/HoI_NL/hallfame/steven_pemberton.jpg",
+                "bio": "Pembertom helped the Netherlands become the second country to access the internet.\n\nTutored by Dick Grimsdale, who built the first transistorised computer and studied under Alan Turing.\n\nFirst European user of the open internet in 1988, involved in its early development.\n\nCo-designed several web standards including HTML, CSS, XHTML, XForms, and RDFa.\n\nChairs two groups at the W3C.\n\nContributed to programming languages, co-designed the language basis for Python, and researched human-computer interaction."
+            }
+            ]
+        },
+        {
+            "subtitle": "Piet Beertema",
+            "people": [
+            {
+                "image": "/images/HoI_NL/hallfame/piet_beertema.jpg",
+                "bio": "Played a key role in launching the internet in the Netherlands.\n\nManaged the .nl domain from Jon Postel in 1986, becoming its founder.\n\nCo-founded SIDN (Internet Domain Registration Netherlands Foundation) in 1996 and served on its board.\n\nLaid the foundation stone for SIDN's new office in 2011."
+            }
+            ]
+        },
+        {
+            "subtitle": "Kees Neggers",
+            "people": [
+            {
+                "image": "/images/HoI_NL/hallfame/kees_neggers.jpg",
+                "bio": "Became director of the European Academic and Research Network (EARN) for the Netherlands.\n\nIn 1984–1985, Boudewijn Nederkoorn and Kees Neggers worked on a plan for computer services for scientific education and research, involving the academic and ICT community in the Netherlands.\n\nThis effort led to the founding of the SURF Foundation in 1987 and the creation of SURFnet BV in 1989. Nederkoorn and Neggers became co-directors of SURFnet in 1988.\n\nIn 1991, Neggers helped initiate the Ebone project as a temporary solution during the transition from OSI to IP in European research networks.\n\nHe participated in establishing the Amsterdam Internet Exchange (1994–1997) and the Dutch chapter of the Internet Society in 1997."
+            }
+            ]
+        },
+        {
+            "subtitle": "Cees Links",
+            "people": [
+            {
+                "image": "/images/HoI_NL/hallfame/cees_links.jpg",
+                "bio": "Cees Links is a Wi-Fi pioneer who helped develop early wireless LANs, making them common in PCs and notebooks.\n\nHe contributed to the creation of access points, routers, and hotspot stations.\n\nHe played a role in establishing the IEEE 802.11 and IEEE 802.15 standards, the latter forming the basis for Zigbee networks."
+            }
+            ]
+        },
+        {
+            "subtitle": "Vic Hayes",
+            "people": [
+            {
+                "image": "/images/HoI_NL/hallfame/vic_hayes.jpg",
+                "bio": "Hayes led the IEEE standards workgroup that created the Wi-Fi (IEEE 802.11) standards.\n\nThe development of IEEE 802.11 sparked a multi-billion-dollar industry for wireless networking.\n\nWi-Fi technology allows global access to the Internet on various wireless devices.\n\nThrough the Wi-Fi Alliance, Hayes helped mobilise the industry for regulatory action.\n\nThis effort resulted in the 2003 World Radio Conference allocating 455 MHz of additional spectrum in the 5 GHz band for wireless devices."
+            }
+            ]
+        }
+    ],
+
+    "references": [
+        { "text": "Inter Hall of Fame. Teus Hagen, available at: ", "url": "https://www.internethalloffame.org/inductee/teus-hagen", "text2": "(accessed by 30 July 2025)." },
+        { "text": "CWI. Steven Pemberton, available at: ", "url": "https://homepages.cwi.nl/~steven/Talks/DSP-bio.html", "text2": "(accessed by 30 July 2025)." },
+        { "text": "SIDN, 2025. Piet Beertema, available at: ", "url": "https://www.sidn.nl/over-sidn/piet-beertema", "text2": "(accessed by 30 July 2025)." },
+        { "text": "Wikipedia, 2025. Vic Hayes, available at: ", "url": "https://en.wikipedia.org/wiki/Vic_Hayes", "text2": "(accessed by 30 July 2025)." }
+    ]
+}

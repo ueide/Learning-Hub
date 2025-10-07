@@ -1,0 +1,44 @@
+/*=== Circle Buttons ===*/
+.circle-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.circle-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+    cursor: pointer;
+}
+
+.circle-buttons button img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.circle-buttons button:hover {
+    background-color: #f0f0f0;
+    box-shadow: 2px 3px 3px rgba(125, 127, 131, 0.24);
+}
+
+.circle-buttons button.active img {
+    transform: scale(1.2);
+    opacity: 0.9;
+}
+
+
+/*== Responsive @Media ==*/
+@media (max-width: 540px) {
+    .circle-buttons {
+        width: 100%;
+        margin-top: 12px;
+        
+    }
+}
+

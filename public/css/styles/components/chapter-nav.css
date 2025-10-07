@@ -1,0 +1,42 @@
+/*== Chapter Navigation ==*/
+.chapter-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.chapter-nav h3 {
+    padding-left: 12px;
+}
+
+.chapter-nav ul,
+.overlay-nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+.chapter-nav .nav-link,
+.overlay-nav .nav-link {
+    display: block;
+    padding: 8px 16px;
+    width: 100%;
+    text-align: left;
+    margin-top: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    color: #010101;
+    background-color: transparent;
+}
+
+.overlay-nav .nav-link {
+    width: 220px;
+    font-size: 16px;
+}
+
+.chapter-nav .nav-link:hover,
+.overlay-nav .nav-link:active {
+    background-color: #dbdddf;
+    color: #010101;
+}

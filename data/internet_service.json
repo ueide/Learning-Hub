@@ -1,0 +1,46 @@
+
+{
+    "title": "History of the Internet in the Netherlands",
+    "chapter": "Internet Service Provider",
+    "headerImage": {
+        "src": "/images/HoI_NL/internetSer/cover_internet.jpg",
+        "alt": "An illustration of the Netherlands' territory painted in the Dutch colours (red, blue, and white), with an internet cable crossing the country horizontally."
+    },
+    "text": "The Netherlands was notably the first European nation to establish a connection to the public internet, facilitated by the Centrum Wiskunde & Informatica (CWI) in Amsterdam. The CWI was instrumental during the Internet's formative years, serving as a crucial hub for development and innovation. Additionally, Steven Pemberton, a key figure in the field, significantly contributed to the creation of foundational web technologies such as HTML and CSS.\n\nThe earliest Internet Service Providers (ISPs) in the Netherlands included NLnet, SURFnet, HCC!Hobbynet, Knoware, IAF, and XS4ALL. SURFnet initially served primarily the academic community, connecting universities, academic hospitals, and research institutes to facilitate research and education collaboration. Commercial entities and the general public in the Netherlands had to wait until 1993 to gain access to the Internet.\n\nXS4ALL became the second provider to offer Internet services directly to individual users.",
+
+
+    "sections": [
+        {
+            "subtitle": "Digital city DDS",
+            "text": "In January 1994, the Internet was made accessible to the general public in the Netherlands through an innovative dial-in service and virtual community space called \"De Digitale Stad\" (Digital City or DDS) as an initiative of cultural centre De Balie and Hack-Tic (what later became internet provider XS4ALL) in Amsterdam. This platform marked a significant milestone by providing large segments of Amsterdam's residents with their first opportunity to experience the Internet, with approximately 100,000 users registering within the first six months.",
+            "image": {
+                "src": "/images/HoI_NL/internetSer/ddt.png",
+                "alt": "Digital city DDS",
+                "caption": "An image representing the Digital City DDS"
+            }
+        },
+
+        {
+            "text":"DDS was conceptualized as a community-driven, commons-based digital environment, emphasizing collective participation and open access— a stark contrast to the modern internet, which has become largely dominated by a small number of major technology corporations. Its unique use of the city as a metaphor for a digital community was pioneering at the time and inspired similar initiatives across several countries, including Germany, Austria, the United Kingdom, France, Italy, Sweden, Canada, and the United States.\n\nLeading DDS was Marleen Stikker, who served as its chairman and was affectionately known as the 'mayor' of this virtual metropolis.\n\nHowever, as the internet increasingly shifted toward commercialization during the dot-com boom, DDS faced challenges in maintaining its original community-focused vision, ultimately leading to its closure in 2001.",
+            "video": "https://www.youtube.com/embed/Ez91yUCyC6k"
+        },
+
+        {
+            "subtitle": "Commercial internet provision",
+            "text": "In November 1994, NLnet BV, a commercial branch of Stichting NLnet, launched the Netherlands' first commercial internet service, marking the country's initial step into providing commercial internet access. By summer 1997, the Foundation sold its commercial internet activities to UUNET, then the internet division of WorldCom, which later merged into Verizon. Since that time, the Foundation has maintained its role as a public benefit organization committed to fostering an open and accessible internet."
+        }
+    ],
+
+    "references": [
+        { "text": "[1]Waag Futurelab, 2013. 25 years Internet in The Netherlands, available at: ", "url": "https://waag.org/en/article/25-years-internet-netherlands", "text2": "(accessed by 29 July 2025)." },
+        { "text": "WCI, 2023. The Netherlands first in Europe to connect to the public internet 35 years ago, available at: ", "url": "https://www.cwi.nl/en/news/the-netherlands-first-in-europe-to-connect-to-the-public-internet-35-years-ago", "text2": "(accessed by 29 July 2025)." },
+        { "text": "[1]Wikipedia, 2025. XS4ALL, available at: ", "url": "https://en.wikipedia.org/wiki/XS4ALL", "text2": "(accessed by 29 July 2025)." },
+        { "text": "[2]Wikipedia, 2025. NLnet, available at: ", "url": "https://en.wikipedia.org/wiki/NLnet", "text2": "(accessed by 29 July 2025)." },
+        { "text": "[2]Waag Futurelab, 2014. De Digitale Stad, DDS, available at: ", "url": "https://waag.org/en/project/digital-city-dds", "text2": "(accessed by 29 July 2025)." },
+        { "text": "Unesco, 2013. DDS: De Digitale Stad / The Digital City, available at: ", "url": "https://www.unesco.org/en/memory-world/dds-de-digitale-stad/digital-city", "text2": "(accessed by 29 July 2025)." },
+        { "text": "Nevejan, C., 2021. How Amsterdam Invented the Internet, available at: ", "url": "https://openresearch.amsterdam/nl/page/73113/how-amsterdam-invented-the-internet", "text2": "(accessed by 29 July 2025)." },
+        { "text": "Trinh, G., 2025. The Digital City (De Digitale Stad) and the legacy of public domain: In conversation with Geert Lovink, available at: ", "url": "https://amsterdamalternative.nl/articles/18663/the-digital-city-de-digitale-stad-and-the-legacy-of-public-domain-in-conversation-with-geert-lovink", "text2": "(accessed by 29 July 2025)." },
+        { "text": "Nlnet. History, available at: ", "url": "https://nlnet.nl/foundation/history", "text2": "(accessed by 29 July 2025)." }
+    ]
+
+}
